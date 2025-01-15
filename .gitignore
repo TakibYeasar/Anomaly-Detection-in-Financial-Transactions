@@ -2,11 +2,11 @@
 New folder
 artifacts
 logs
-# Ignore specific file
-notebook/data/Transactions Data.csv
 
 # Ignore other large files in the folder
-notebook/data/*.csv
+notebook/data/raw/*.csv
+notebook/data/processed/*.csv
+notebook/data/external/*.csv
 
 
 # Byte-compiled / optimized / DLL files
